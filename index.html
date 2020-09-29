@@ -1,9 +1,169 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>MD GLOBAL - INTERN PROJECT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+a:link
+{
+ color:black;
+}
+a:visited
+{
+ color:Red;
+}
+a:hover
+{
+color:blue;
+}
+a:active
+{
+color:blue;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.header {
+  height: 100px;
+  background-color: #9933cc;
+  font-style:initial;
+  margin-top: 0px;
+  text-align: justify;
+  padding: 0px;
+  font-size:40px; 
+  text-align: center;
+  color:white;
+  overflow : hidden;
+  text-shadow: 2px 2px 8px red;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: hotpink;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: hotpink;
+}
+.g3{
+  background-color: hotpink;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: pink;
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+}
+.g2{
+  color:red;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%; 
+        height: 70%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+</style>
 </head>
 <body>
-</body>
-<p> Hello this is gayathri</p>
+
+<div class="header">
+  <h4>MD Global - Edu Hub</h4>
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+    <li><a href="file:///C:/Users/Gayathri/Desktop/My_project/couchdb_playlist/views/front.html" target="_blank">Home</a></li>
+    <li><a href="file:///C:/Users/Gayathri/Desktop/My_project/couchdb_playlist/views/login.html" target="_blank">Login</a></li>
+    <li><a href="" target="_blank">Project</a></li>
+    <li><a href="" target="_blank">Music</a></li>
+    <li><a href="" target="_blank">Contact</a></li><br><br>
+    <img src="https://www.itl.cat/pngfile/big/82-822601_related-wallpapers-tipografi-music.jpg" width="100%" height="50%">
+    </ul><br>
+     <button onclick='alert("User Name : Gayathri")'>Get Username</button>&nbsp;&nbsp; &nbsp;
+    <button onclick='alert("Password is : Gayu1234")'>Password Here</button>
+  </div>
+
+  <div class="col-6">
+    <h1>Here is the Musical Web Page</h1>
+    <p>This Musical Web Page is created by <span class="g2">Gayathri Saravanan</span>.There is Musical Playlist inside this web page.You can enjoy my playlist.For that the users have to login the page.The login link is provided at the second column of the left side also You can find the Username and Password in this page !!!</p>
+    <h1>Editing Playlist:</h1>
+    <ol>
+      <li>Add a song : If you add a song it will permanently added in the Couch DataBase Which is used here.</li>
+      <li>Delete a song: If you delete a song it will permanently deleted from the DataBase.</li><br><br>
+      <div class="g3">
+        <h1>So, What's next? Let's go and Enjoy My Playlist</h1>
+      </div>
+  </div>
+
+  <div class="col-3 right">
+    <div class="aside">
+      <img src="https://media2.giphy.com/media/3o8dpbfzkgiDrCwbxm/giphy.webp?cid=ecf05e475bf221598cf0dfecb4d191e5c6adb7ec9a0a272a&rid=giphy.webp" width="100%">
+      <div class="g1">
+        <h3>“Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.” ― Plato</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h4>Welcome may all who came as Guests and leave as Friends</h4>
+</div>
+
 </body>
 </html>
