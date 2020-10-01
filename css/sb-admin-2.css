@@ -71,7 +71,7 @@ body {
   line-height: 1.5;
   color: black;
   text-align: left;
-  background-color: black;
+  
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -183,7 +183,6 @@ a:not([href]):hover {
   text-decoration: none;
 }
 
-pre,
 code,
 kbd,
 samp {
@@ -196,6 +195,8 @@ pre {
   margin-bottom: 1rem;
   overflow: auto;
   -ms-overflow-style: scrollbar;
+  font-size : 50px;
+  font-style: oblique;
 }
 
 figure {
@@ -534,8 +535,9 @@ kbd kbd {
 
 pre {
   display: block;
-  font-size: 87.5%;
-  color: #3a3b45;
+  font-size: 15px;
+  font-weight: var(--breakpoint-xl);
+  color: #03040e;
 }
 
 pre code {
@@ -10366,7 +10368,7 @@ a:focus {
 }
 
 .bg-password-image {
-  background: url("https://source.unsplash.com/oWTW-jNGl9I/600x800");
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_v1SggY-WCEVypNydIRxlZKiqpkexUYLTMQ&usqp=CAU");
   background-position: center;
   background-size: cover;
 }
